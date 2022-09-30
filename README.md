@@ -77,7 +77,3 @@ ARG JAR_FILE=/build/libs/*.jar
 COPY ${JAR_FILE} app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
 ```
-
-- Todo 
-
-Login to DockerHub Github Actions Env 추가 후, yml에서 사용가능한 로직 추가
